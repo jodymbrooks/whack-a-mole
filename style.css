@@ -1,0 +1,24 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: burlywood;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+  border-style: solid;
+  border-color: burlywood;
+}
+
+.mole {
+  background-image: url("images/mole-angry.jfif");
+}
